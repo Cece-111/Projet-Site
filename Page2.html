@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>Robot et société</title>
+		<link rel="stylesheet" type="text/css" href="fichierExterne/miseEnForme.css">
+		<link rel="icon" type="image/x-icon" href="Images_sons/robot.ico">
+
+	</head>
+	<body>
+		<a href="Page2.html"><img src="Images_sons/société.jpg"  alt="L'image n'as pas pu se charger" style="margin-left:  auto; margin-right: auto;" /></a>
+		<audio src="Images_sons/Naruto_dark_music.mp3" autoplay="" controls="" hidden="">Musique</audio>
+		<img src="Images_sons/mainHR.jpg" alt="Image à venir" width="1000" style="margin-left:  auto; margin-right: auto;">
+			
+		<div>
+			<h3>1.La place du robot au sein de la société </h3>
+			
+			
+					
+			<p style="margin: 0px 25px 0px 25px">Les scientifiques ayant crée les robots sencés remplacer l’homme réflechissent-ils à leurs implication en terme d’équilibre sociale et économique? Depuis leurs créations, les robots jouent un rôle important dans notre société. Ils y sont de plus en plus présent pour plusieurs raisons toutes relatives au profit (l’utilisation des robots dans une industrie ou encore une usine, revient moins cher qu’une main d’œuvre ouvrières et sont efficaces contenu de la masse de travail réalisée) au nom de l’efficacité, et du coût économique. Ainsi par exemple, les robots les plus sophistiqués, dotés de technologies modernes, sont sollicités par les forces militaires (armée), dans la médecine (le Da Vinci),  dans la recherche spatiale ou encore dans d’autres domaines. L’objectif est de préserver la vie de l’homme ou de le remplacer dans des situations à risques, un avantage non négligeable. Cependant ce phénomène de robotisation présente aussi des inconvénients notamment en ce qui concerne le domaine de l’industrie, une période plus connu sous le nom de révolution industrielle marquée par deux grandes périodes. Celle entre 1770 et 1850 symbolisée par l’apparition de la machine à vapeur par James Watt en 1769, les chemins de fer, l’industrie du textile et la sidérurgie, et une autre période, celle de 1850 à 1914 qui est celle de l’électricité, des bateaux à vapeur, du pétrole, de l’industrie chimique et celle de l’automobile, de l’aviation, ainsi que le travail à la chaîne. Cette révolution à entrainé de nombreux changements et transformations tant sur le plan technique, économique, sociale et culturelle. C’est pourquoi au niveau de l’industrie on a une déshumanisation des usines, où les ouvriers (mains d’œuvre) ont souffert du chômage industriel, un chômage dit technologique, comme c’est le cas des entreprises automobiles. Il existe d’ailleurs un film qui illustre bien cette situation, Les temps modernes  avec Charlie Chaplin qui est une comédie dramatique américaine satire du travail à la chaîne et un réquisitoire contre le chômage et les  tristes conditions de vie d’une grande partie de la population occidentale lors de la Grande Dépression (ouvriers) en raison de l’industrialisation des temps modernes. </p>
+							
+				
+		</div>
+
+		<div>
+			<h3>2.L'acceptation des robots dans la société</h3>
+			<p>Comment les robots sont-ils accpté par la société?</p>
+			<ul>
+				<li>Dans la guerre:
+				<p> <a href="fichierExterne/rapport_d'information.pdf">Rapport d'information .pdf</a>  </p>
+				</li>
+
+				<li>Dans le monde:
+				<p><a href="Robot_monde.html">L'interview de France2</a></p>
+				</li>
+
+				<li>Dans la vie quotidienne:
+				<p><a href="robot_menace.html">Les robot une menace?</a></p>
+				</li>
+
+			</ul>
+		</div>
+		<div >
+			<h3> Les robots permettent aussi de verifier vos mots de passes: </h3>
+
+			<script type="text/javascript"> 
+        function validate() { 
+            var msg; 
+            var str = document.getElementById("mdp").value; 
+            if (str.match( /[0-9]/g) && 
+                    str.match( /[A-Z]/g) && 
+                    str.match(/[a-z]/g) && 
+                    str.match( /[^a-zA-Z\d]/g) &&
+                    str.length >= 10) 
+
+                msg = "<p style='color:#33FF00'>Mot de passe fort.</p>"; 
+            else 
+                msg = "<p style='color:red'>Mot de passe faible.</p>"; 
+            document.getElementById("msg").innerHTML= msg; 
+        } 
+	    </script>
+
+	    <p>Entrez le mot de passe: </p> <input id="mdp" /> 
+	    <button onclick="validate()">Valider</button><br>
+	    <span id="msg"></span> 
+		</div>
+
+		<h3>Les ordinateurs fonctionnent en bits voici un outil de conversion de nombres décimaux, binaires et hexadécimaux.</h3>
+		
+			<div style="margin: 0px 0px 100px 0px">
+				<script type="text/javascript"> function convNbDec()
+				{
+					decimal = document.getElementById("b10");
+					binaire = document.getElementById("b2");
+					hexadecimal = document.getElementById("b16");
+					hexadecimal.value = parseInt (b10.value ,10).toString (16);
+					binaire.value = parseInt (b10.value ,10).toString (2);
+				}
+				function convNbHexa()
+				{
+					decimal = document.getElementById("b10");
+					binaire = document.getElementById("b2");
+					hexadecimal = document.getElementById("b16");
+					decimal . value = parseInt (b16.value ,16). toString ();
+					binaire . value = parseInt (b16.value ,16). toString (2);
+				}
+				function convNbBin()
+				{
+					decimal = document.getElementById("b10");
+					binaire = document.getElementById("b2");
+					hexadecimal = document.getElementById("b16");
+					decimal . value = parseInt (b16.value ,16). toString ();
+					binaire . value = parseInt (b16.value ,16). toString (2);
+				} </script>
+				<p>
+					<label for="b10"> Décimal : </label>
+					<input type="text" class="nb" id="b10">
+					<input type="button" value="Convertir" onClick="convNbDec();">
+				</p>
+				<p>
+					<label for="b2"> Binaire : </label>
+					<input type="text" class="nb" id="b2">
+					<input type="button" value="Convertir" onClick="convNbBin();">
+				</p>
+				<p>
+					<label for="b16"> Hexadécimal : </label>
+					<input type="text" class="nb" id="b16">
+					<input type="button" value="Convertir" onClick="convNbHexa();">
+				</p>
+			</div>
+			<a href="index.html"><img src="Images_sons/Home.jpg" alt="L'image n'a pas pu se charger" id="menu"  /></a>
+	</body>
+	</html>
