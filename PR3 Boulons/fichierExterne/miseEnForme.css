@@ -1,0 +1,124 @@
+label
+{
+	/* Pour être surs que toutes les étiquettes ont la même taille et sont correctement alignées */
+	display: inline-block;
+	width: 150px;
+	text-align: right;
+}
+
+
+body
+{
+	background-color: #353535;
+}
+
+h2,h3, h4
+{
+	color: #808080;
+	text-decoration: underline;
+	font-style: italic;
+	font-weight: bold;
+}
+
+ul
+{
+	list-style-type: circle;
+	color: /*#909090*/ #BABABA;
+	
+}
+
+table, th, transparent
+{
+	border: 1px solid RGB(128,128,128);
+}
+
+th
+{
+	font-style: italic;
+}
+
+td, th, tr
+{
+	padding: 8px;
+	color: #BABABA;
+	font-weight: bold;
+}
+
+h1
+{
+	color: #E1E1E1;
+	text-align: center;
+	text-decoration: underline;
+	font-style: italic;
+	font-weight: bold;
+	margin: 0px 0px 50px 0px
+
+}
+
+p
+{
+	color: #BABABA;
+	text-align:justify;
+	font size: 
+}
+
+a
+{
+	color: #7676FF;
+}
+
+img
+{
+	display: block;
+	margin-left: : auto;
+	margin-right: auto;
+}
+
+li
+{
+	color: #909090;
+}
+
+.centricite
+{
+	margin: 0px 100px 0px 100px;
+}
+
+}
+title
+{
+	font-family: comic sans ms
+	
+}
+
+
+h4
+{
+	font-family: Noto Mono
+}
+
+h5
+{
+	font-family: comic sans ms
+}
+#logo
+{ 
+width:50px;
+height:auto;
+}
+
+.TitreLien
+{
+	color: grey;
+	text-transform: capitalize;
+}
+
+#menu
+{
+	width:50px;
+	height:auto;
+	padding-right:1400px;
+	margin:10px 0px 0px 0px;
+
+}
+
